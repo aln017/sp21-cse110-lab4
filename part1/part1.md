@@ -43,3 +43,5 @@
     5.  False because the numeric value of true is 1 which is not equal to 2.
     6.  True because Boolean(2) is true which is equivalent to the first argument.
 15. == checks for equality after first converting the types of the arguments. For example, '2' == 2 is true because '2' is converted to a number. === checks equality without using type conversions. Therefore, '2' === 2 would be false since '2' is not converted and a string and a number cannot be equal.
+
+17. The result is newArr that contains [2, 4, 6]. The function modifyArray is called with the parameters [1,2,3] and doSomething. The function modifyArray calls doSomething inside of it and therefore executes doSomething and returns the value back to the push function in modifyArray. Each number in the given array is used as an argument in doSomething which multiplies it by 2 and pushes it into newArr.
