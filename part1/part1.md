@@ -21,13 +21,13 @@
 10. Line 12 will print the length variable which has a value of 3. This is because length is assigned the value of the length of the prices array and is not reassigned for the rest of the function.
 11. The function will return an array with the values [50, 100, 150]. This is because the for loop takes the prices in the given array, applies the discount to them, and pushes them to the new discounted array. Even though discounted is a const variable, it is only adding new values, not being reassigned. Since discountedPrice is being redeclared for every loop iteration, its value is updated without causing error.
 12. 
-    1.  alert(student.name);
-    2.  alert(student['Grad Year']);
-    3.  student.greeting();
-    4.  alert((student['Favorite Teacher']).name);
-    5.  alert((student.courseLoad)[0]);
-13. f
-    1. 5 because the '3' is converted because the addition function converts all non-strings to numeric values.
+    a. alert(student.name);
+    b. alert(student['Grad Year']);
+    c. student.greeting();
+    d.  alert((student['Favorite Teacher']).name);
+    e.  alert((student.courseLoad)[0]);
+13. 
+    1.   5 because the '3' is converted because the addition function converts all non-strings to numeric values.
     2.  1 because the '3' is converted due to the subtraction function converting non-strings to numeric values.
     3.  3 because null has a numeric value of 0 and the addition function converts null to its value.
     4.  3 because '3' and null are both non-strings with the numeric values 3 and 0 that are converted automatically by the addition function.
@@ -35,7 +35,7 @@
     6.  0 because false and null both have numeric values of 0 and are converted automatically.
     7.  NaN because undefined is not a valid number so the numeric conversion fails and the result is not a number.
     8.  NaN because undefined is not a valid number so the numeric conversion fails and the result is not a number.
-14. f
+ 14.   
     1.  True because 2 is automatically converted to a number and is greater than 1.
     2.  False because they are both strings and are therefore compared in lexicographical order rather than numeric order. '2' comes after '1', so '2' is greater than '12'.
     3.  True because '2' is converted to a number so the two are equal.
@@ -45,3 +45,5 @@
 15. == checks for equality after first converting the types of the arguments. For example, '2' == 2 is true because '2' is converted to a number. === checks equality without using type conversions. Therefore, '2' === 2 would be false since '2' is not converted and a string and a number cannot be equal.
 
 17. The result is newArr that contains [2, 4, 6]. The function modifyArray is called with the parameters [1,2,3] and doSomething. The function modifyArray calls doSomething inside of it and therefore executes doSomething and returns the value back to the push function in modifyArray. Each number in the given array is used as an argument in doSomething which multiplies it by 2 and pushes it into newArr.
+
+19. The output of the code is 1 4 3 2. 1 and 4 are printed first because they do not have any timeouts. 3 is printed after them even with a delay of 0 because it must wait for the next event cycle to be executed. 2 is printed last because of the 1 second delay.
