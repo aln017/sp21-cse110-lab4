@@ -5,7 +5,7 @@
 5. The file size is 11.7 MB.
 6. It took 1.31 seconds to download.
 7. The User Agent that made the request was Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36.
-8. soemthing server
+8. The server is Apache.
 9. The file was last modified Tue, 26 Jan 2021 22:14:13 GMT.
 10. The Content-Type of the file is application/json.
 11. The fetchData() method made the request. 

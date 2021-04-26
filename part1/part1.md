@@ -40,7 +40,7 @@
     5.  alert((student.courseLoad)[0]);
 
 13. 
-    1.   5 because the '3' is converted because the addition function converts all non-strings to numeric values.
+    1.  5 because the '3' is converted because the addition function converts all non-strings to numeric values.
     2.  1 because the '3' is converted due to the subtraction function converting non-strings to numeric values.
     3.  3 because null has a numeric value of 0 and the addition function converts null to its value.
     4.  3 because '3' and null are both non-strings with the numeric values 3 and 0 that are converted automatically by the addition function.
